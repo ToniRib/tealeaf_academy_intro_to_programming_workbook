@@ -19,4 +19,7 @@ We will end up with this "nested" array:
 Make this into an un-nested array.
 
 ### Answer
-flinstones.flatten!
+
+```
+flintstones.flatten!
+```
