@@ -20,7 +20,7 @@ puts "My array looks like this now: #{my_array}"
 ### Answer
 The output will be:
 
-"My string looks like this now: pumpkins"
-"My array looks like this now: ["pumpkins", "rutabaga"]
+My string looks like this now: pumpkins
+My array looks like this now: ["pumpkins", "rutabaga"]
 
 The += operator creates a new string and stores it to the variable named a_string_param which lives only within the scope of the method. Thus, my_string is not changed. As for the array, the << modifies the array itself directly, and since an_array_param points to my_array inside of the method, my_array gets modified by the shovel operator.
